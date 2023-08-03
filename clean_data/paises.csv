@@ -9,19 +9,19 @@ id_pais,pais,abrev
 8,Australia,AU
 9,South Africa,ZA
 10,Canada,CA
-11,Switzerland,CH
-12,Belgium,BE
-13,Japan,JP
-14,Iran,IR
-15,Netherlands,NL
-16,Hong Kong,HK
-17,Tunisia,TN
-18,Ireland,IE
-19,Dominican Republic,DO
-20,Croatia,HR
-21,Russia,RU
-22,Macedonia,MK
-23,Austria,AT
+11,Iran,IR
+12,Netherlands,NL
+13,Belgium,BE
+14,Hong Kong,HK
+15,Tunisia,TN
+16,Ireland,IE
+17,Dominican Republic,DO
+18,Croatia,HR
+19,Japan,JP
+20,Russia,RU
+21,Macedonia,MK
+22,Austria,AT
+23,Switzerland,CH
 24,Taiwan,TW
 25,New Zealand,NZ
 26,Mexico,MX
@@ -63,100 +63,99 @@ id_pais,pais,abrev
 62,Turkey,TR
 63,Ecuador,EC
 64,Lebanon,LB
-65,Morocco,MA
-66,Bosnia and Herzegovina,BA
-67,Bahamas,BS
-68,Malaysia,MY
-69,Bhutan,BT
-70,Jamaica,JM
-71,Pakistan,PK
-72,Nepal,NP
-73,Cote D'Ivoire,CI
-74,Thailand,TH
-75,Namibia,NA
-76,Cameroon,CM
-77,Colombia,CO
-78,Czechoslovakia,XC
-79,Uruguay,UY
+65,Bosnia and Herzegovina,BA
+66,Bahamas,BS
+67,Malaysia,MY
+68,Jamaica,JM
+69,Pakistan,PK
+70,Nepal,NP
+71,Cote D'Ivoire,CI
+72,Thailand,TH
+73,Namibia,NA
+74,Colombia,CO
+75,Czechoslovakia,XC
+76,Uruguay,UY
+77,Libyan Arab Jamahiriya,LY
+78,Puerto Rico,PR
+79,Soviet Union,SU
 80,Slovenia,SI
-81,Libyan Arab Jamahiriya,LY
-82,Puerto Rico,PR
-83,Soviet Union,SU
-84,East Germany,XG
-85,Singapore,SG
-86,Afghanistan,AF
-87,Malta,MT
-88,Panama,PA
-89,Egypt,EG
-90,Zimbabwe,ZW
-91,Tajikistan,TJ
-92,Uzbekistan,UZ
-93,Costa Rica,CR
-94,Kuwait,KW
-95,Martinique,MQ
-96,Ghana,GH
-97,Armenia,AM
-98,Indonesia,ID
-99,Mongolia,MN
-100,Bolivia,BO
-101,Monaco,MC
-102,Iraq,IQ
-103,Slovakia,SK
-104,Serbia and Montenegro,CS
-105,Venezuela,VE
-106,Lithuania,LT
-107,Rwanda,RW
-108,Palestinian Territory,PS
-109,Chad,TD
-110,Paraguay,PY
-111,Qatar,QA
-112,Estonia,EE
-113,Macao,MO
-114,Mali,ML
-115,United States Minor Outlying Islands,UM
-116,Latvia,LV
-117,United Arab Emirates,AE
-118,Azerbaijan,AZ
-119,Cayman Islands,KY
-120,Nicaragua,NI
-121,Liberia,LR
-122,Yugoslavia,YU
-123,Montenegro,ME
-124,Angola,AO
-125,Belarus,BY
-126,Cambodia,KH
-127,Mauritania,MR
-128,Cyprus,CY
-129,Bangladesh,BD
-130,Syrian Arab Republic,SY
-131,Kyrgyz Republic,KG
-132,Albania,AL
-133,Tanzania,TZ
-134,North Korea,KP
-135,Kenya,KE
-136,Jordan,JO
-137,Uganda,UG
-138,Saudi Arabia,SA
-139,Somalia,SO
-140,Guatemala,GT
-141,Madagascar,MG
-142,Ethiopia,ET
-143,Sri Lanka,LK
-144,Papua New Guinea,PG
-145,Nigeria,NG
-146,Lao People's Democratic Republic,LA
-147,French Polynesia,PF
-148,Netherlands Antilles,AN
-149,Congo,CG
-150,Myanmar,MM
-151,Bermuda,BM
-152,El Salvador,SV
-153,French Southern Territories,TF
-154,Samoa,WS
-155,Moldova,MD
-156,Barbados,BB
-157,Antarctica,AQ
-158,Gibraltar,GI
-159,Brunei Darussalam,BN
-160,Honduras,HN
-161,Guinea,GN
+81,East Germany,XG
+82,Afghanistan,AF
+83,Morocco,MA
+84,Malta,MT
+85,Panama,PA
+86,Singapore,SG
+87,Egypt,EG
+88,Zimbabwe,ZW
+89,Tajikistan,TJ
+90,Uzbekistan,UZ
+91,Costa Rica,CR
+92,Martinique,MQ
+93,Ghana,GH
+94,Armenia,AM
+95,Indonesia,ID
+96,Mongolia,MN
+97,Bolivia,BO
+98,Monaco,MC
+99,Cameroon,CM
+100,Iraq,IQ
+101,Bhutan,BT
+102,Slovakia,SK
+103,Serbia and Montenegro,CS
+104,Venezuela,VE
+105,Rwanda,RW
+106,Palestinian Territory,PS
+107,Chad,TD
+108,Paraguay,PY
+109,Estonia,EE
+110,Macao,MO
+111,Mali,ML
+112,Lithuania,LT
+113,United States Minor Outlying Islands,UM
+114,Latvia,LV
+115,United Arab Emirates,AE
+116,Azerbaijan,AZ
+117,Cayman Islands,KY
+118,Nicaragua,NI
+119,Liberia,LR
+120,Yugoslavia,YU
+121,Montenegro,ME
+122,Angola,AO
+123,Belarus,BY
+124,Cambodia,KH
+125,Mauritania,MR
+126,Cyprus,CY
+127,Bangladesh,BD
+128,Syrian Arab Republic,SY
+129,Kyrgyz Republic,KG
+130,Albania,AL
+131,Tanzania,TZ
+132,North Korea,KP
+133,Kenya,KE
+134,Jordan,JO
+135,Uganda,UG
+136,Saudi Arabia,SA
+137,Somalia,SO
+138,Guatemala,GT
+139,Madagascar,MG
+140,Ethiopia,ET
+141,Qatar,QA
+142,Sri Lanka,LK
+143,Papua New Guinea,PG
+144,Nigeria,NG
+145,Lao People's Democratic Republic,LA
+146,French Polynesia,PF
+147,Netherlands Antilles,AN
+148,Congo,CG
+149,Myanmar,MM
+150,Bermuda,BM
+151,El Salvador,SV
+152,French Southern Territories,TF
+153,Samoa,WS
+154,Moldova,MD
+155,Barbados,BB
+156,Antarctica,AQ
+157,Gibraltar,GI
+158,Brunei Darussalam,BN
+159,Honduras,HN
+160,Guinea,GN
