@@ -1,5 +1,5 @@
 id_pais,pais,abrev
-1,United States of America,US
+1,United States Of America,US
 2,Germany,DE
 3,United Kingdom,GB
 4,France,FR
@@ -48,7 +48,7 @@ id_pais,pais,abrev
 47,Romania,RO
 48,Philippines,PH
 49,Vietnam,VN
-50,Trinidad and Tobago,TT
+50,Trinidad And Tobago,TT
 51,Bulgaria,BG
 52,Chile,CL
 53,Norway,NO
@@ -63,7 +63,7 @@ id_pais,pais,abrev
 62,Turkey,TR
 63,Ecuador,EC
 64,Lebanon,LB
-65,Bosnia and Herzegovina,BA
+65,Bosnia And Herzegovina,BA
 66,Bahamas,BS
 67,Malaysia,MY
 68,Jamaica,JM
@@ -101,7 +101,7 @@ id_pais,pais,abrev
 100,Iraq,IQ
 101,Bhutan,BT
 102,Slovakia,SK
-103,Serbia and Montenegro,CS
+103,Serbia And Montenegro,CS
 104,Venezuela,VE
 105,Rwanda,RW
 106,Palestinian Territory,PS
@@ -143,7 +143,7 @@ id_pais,pais,abrev
 142,Sri Lanka,LK
 143,Papua New Guinea,PG
 144,Nigeria,NG
-145,Lao People's Democratic Republic,LA
+145,Lao People'S Democratic Republic,LA
 146,French Polynesia,PF
 147,Netherlands Antilles,AN
 148,Congo,CG

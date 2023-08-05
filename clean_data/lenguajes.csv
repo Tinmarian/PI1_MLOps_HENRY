@@ -19,11 +19,11 @@ id_leng,lenguaje,abrev
 19,Bosanski,bs
 20,,mn
 21,Română,ro
-22,Bahasa indonesia,id
-23,Bahasa melayu,ms
-24,shqip,sq
+22,Bahasa Indonesia,id
+23,Bahasa Melayu,ms
+24,Shqip,sq
 25,,mk
-26,svenska,sv
+26,Svenska,sv
 27,עִבְרִית,he
 29,Český,cs
 32,,tl
@@ -41,11 +41,11 @@ id_leng,lenguaje,abrev
 46,Cymraeg,cy
 47,ภาษาไทย,th
 48,Latviešu,lv
-50,български език,bg
-51,ελληνικά,el
+50,Български Език,bg
+51,Ελληνικά,el
 52,,ne
 53,Türkçe,tr
-55,suomi,fi
+55,Suomi,fi
 57,Український,uk
 58,Slovenčina,sk
 59,,iu
@@ -57,7 +57,7 @@ id_leng,lenguaje,abrev
 66,No Language,xx
 68,Malti,mt
 69,اردو,ur
-70,isiZulu,zu
+70,Isizulu,zu
 71,,lo
 73,Bamanankan,bm
 76,,ku
@@ -71,13 +71,13 @@ id_leng,lenguaje,abrev
 89,தமிழ்,ta
 91,Galego,gl
 93,Kinyarwanda,rw
-95,қазақ,kk
-99,Lietuvikai,lt
+95,Қазақ,kk
+99,LietuviKai,lt
 100,Eesti,et
 101,,fy
 103,Slovenščina,sl
 104,తెలుగు,te
-109,euskera,eu
+109,Euskera,eu
 111,,mr
 114,,ay
 115,??????,ky
@@ -85,5 +85,5 @@ id_leng,lenguaje,abrev
 119,,lb
 121,,ab
 122,?????,kn
-123,ozbek,uz
+123,Ozbek,uz
 124,,sm

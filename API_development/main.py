@@ -9,20 +9,29 @@ def saludo():
 
 @app.get("/idioma/{idioma}")
 def peliculas_idioma(idioma:str):
-    df = pd.read_csv('../clean_data/movies.csv')
+    idioma = idioma.lower()
+    df = pd.read_csv('clean_data/movies.csv')
+    dfx = pd.read_csv('clean_data/lenguajes.csv')
+    dfy = pd.read_csv('clean_data/leng_movies.csv')
     df = df[df.original_language == idioma]
-    return {"La cantidad de películas producidas originalmente en":f"{idioma}", "son": f"{len(df)}"}
+    df = df.merge(dfy)
+    df = df.merge(dfx)
+    abrev = idioma
+    idioma = df.lenguaje.item()
+    return {"La cantidad de películas producidas originalmente en":f"{idioma}" f"{abrev}", "son": f"{len(df)}"}
 
 @app.get("/pelicula/{pelicula}")
 def peliculas_duración(pelicula:str):
+    pelicula = pelicula.title()
     df = pd.read_csv('../clean_data/movies.csv')
     row = df[df.title == pelicula]
-    duracion = row.runtime[0]
-    anio = row.release_year[0]
+    duracion = row.runtime.item()
+    anio = row.release_year.item()
     return {"La pelicula" : f"{pelicula}", "tiene una duración de" : f"{duracion} minutos", "Año": f"{anio}"}
 
 @app.get("/franquicia/{franquicia}")
 def franquicia(franquicia:str):
+    franquicia = franquicia.title()
     df = pd.read_csv('../clean_data/franquicias.csv')
     dfx = pd.read_csv('../clean_data/franq_movies.csv')
     dfy = pd.read_csv('../clean_data/movies.csv')
@@ -37,6 +46,7 @@ def franquicia(franquicia:str):
 
 @app.get("/pais/{pais}")
 def peliculas_pais(pais:str):
+    pais = pais.title()
     df = pd.read_csv('../clean_data/paises.csv')
     dfx = pd.read_csv('../clean_data/pais_movies.csv')
     df = df[df.pais == pais]
@@ -46,6 +56,7 @@ def peliculas_pais(pais:str):
 
 @app.get("/productora/{productora}")
 def productoras_exitosas(productora:str):
+    productora = productora.title()
     df = pd.read_csv('../clean_data/productoras.csv')
     dfx = pd.read_csv('../clean_data/prod_movies.csv')
     dfy = pd.read_csv('../clean_data/movies.csv')
@@ -58,6 +69,7 @@ def productoras_exitosas(productora:str):
 
 @app.get("/director/{director}")
 def get_director(director:str):
+    director = director.title()
     df = pd.read_csv('../clean_data/directores.csv')
     dfx = pd.read_csv('../clean_data/dir_movies.csv')
     dfy = pd.read_csv('../clean_data/movies.csv')
