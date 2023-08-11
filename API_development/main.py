@@ -91,9 +91,14 @@ def recomendacion(pelicula:[str,int]):
     elif type(pelicula) == int:
         lista = list(dfx[dfx.id_peli == pelicula].idx_recommend)
         pelicula = dfx.title[dfx.id_peli == pelicula][:1].item()
-    
+
     recomendacion = df.loc[lista][['id_peli', 'title']]
     recomendacion.columns = ['id_peli','recomendaciones']
-    
-    return {'Ingresaste la película: ' : f'{pelicula}', 
-            'Las recomendaciones son: ' : f'1.- [{recomendacion.recomendaciones[0:1].item()}]; 2.- [{recomendacion.recomendaciones[1:2].item()}]; 3.- [{recomendacion.recomendaciones[2:3].item()}]; 4.- [{recomendacion.recomendaciones[3:4].item()}]; 5.- [{recomendacion.recomendaciones[4:5].item()}]'}
+
+    if not recomendacion.empty:
+        return {
+            'Ingresaste la película: ': f'{pelicula}',
+            'Las recomendaciones son: ': f'1.- [{recomendacion.recomendaciones[:1].item()}]; 2.- [{recomendacion.recomendaciones[1:2].item()}]; 3.- [{recomendacion.recomendaciones[2:3].item()}]; 4.- [{recomendacion.recomendaciones[3:4].item()}]; 5.- [{recomendacion.recomendaciones[4:5].item()}]',
+        }
+    else: 
+        return {'Dentro del dataset no se encuentra la película: ' : f'{pelicula}'}
