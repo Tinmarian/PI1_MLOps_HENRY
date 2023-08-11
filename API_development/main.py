@@ -83,7 +83,8 @@ def get_director(director:str):
 # última función, agregada el 11/08/2023 a las 2:14 am
 @app.get("/recomendacion/{pelicula}")
 def recomendacion(pelicula:[str,int]):
-    df = pd.read_csv
+    df = pd.read_csv('../clean_data/movies_model.csv')
+    dfx = pd.read_csv('../clean_data/recommended_movies.csv')
     if type(pelicula) == str:
         pelicula = pelicula.title()
         lista = list(dfx[dfx.title == pelicula].idx_recommend)
