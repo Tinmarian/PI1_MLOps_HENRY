@@ -79,3 +79,26 @@ def get_director(director:str):
     retorno = df.revenue.sum()/df.budget.sum()
     listas = df.to_numpy().tolist()
     return {f"El director {director}" : f"tiene un éxito medido a través del retorno de todas sus películas de {retorno}.", "Las películas que dirigió son:" : f"{listas}", "La ecuación que se utilizó para obtener el retorno es:" : "df.revenue.sum()/df.budget.sum(), donde 'df' es el dataframe filtrado por el director seleccionado."}
+
+# última función, agregada el 11/08/2023 a las 2:14 am
+@app.get("/recomendacion/{pelicula}")
+def recomendacion(pelicula:[str,int]):
+    df = pd.read_csv('../clean_data/movies_model.csv')
+    dfx = pd.read_csv('../clean_data/recommended_movies.csv')
+    if type(pelicula) == str:
+        pelicula = pelicula.title()
+        lista = list(dfx[dfx.title == pelicula].idx_recommend)
+    elif type(pelicula) == int:
+        lista = list(dfx[dfx.id_peli == pelicula].idx_recommend)
+        pelicula = dfx.title[dfx.id_peli == pelicula][:1].item()
+
+    recomendacion = df.loc[lista][['id_peli', 'title']]
+    recomendacion.columns = ['id_peli','recomendaciones']
+
+    if not recomendacion.empty:
+        return {
+            'Ingresaste la película: ': f'{pelicula}',
+            'Las recomendaciones son: ': f'1.- [{recomendacion.recomendaciones[:1].item()}]; 2.- [{recomendacion.recomendaciones[1:2].item()}]; 3.- [{recomendacion.recomendaciones[2:3].item()}]; 4.- [{recomendacion.recomendaciones[3:4].item()}]; 5.- [{recomendacion.recomendaciones[4:5].item()}]',
+        }
+    else: 
+        return {'Dentro del dataset no se encuentra la película: ' : f'{pelicula}'}
