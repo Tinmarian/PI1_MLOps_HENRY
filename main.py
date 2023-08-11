@@ -80,7 +80,7 @@ def get_director(director:str):
     return {f"El director {director}" : f"tiene un éxito medido a través del retorno de todas sus películas de {retorno}.", "Las películas que dirigió son:" : f"{listas}", "La ecuación que se utilizó para obtener el retorno es:" : "df.revenue.sum()/df.budget.sum(), donde 'df' es el dataframe filtrado por el director seleccionado."}
 
 @app.get("/recomendacion/{pelicula}")
-def recomendacion(pelicula):
+def recomendacion(pelicula):  # sourcery skip: use-contextlib-suppress
 # The `try` block is used to handle exceptions or errors that may occur during the execution of the
 # code. In this case, the code is trying to convert the `pelicula` variable to an integer using the
 # `int()` function. If the conversion is successful, it means that `pelicula` is an integer and the
