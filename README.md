@@ -8,6 +8,10 @@ Link a la API en Render:
 
   * https://recommendation-system-ycfj.onrender.com/docs#/
 
+Link al video en YT:
+
+ * https://www.youtube.com/watch?v=1Zq2XKiNqBM
+
 En este proyecto se trabajó en un sistema de recomendación de películas mediante una técnica de vectorización sencilla, 
 para posteriormente generar el calculo del producto punto con el fin de obtener la distancia del coseno entre la "bolsa de palabras" de cada
 película. De esta manera recomendar 5 películas similares bajo nuestro criterio.
