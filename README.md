@@ -1,4 +1,4 @@
-# Sistema de Recomendación.
+# Sistema de Recomendación con scikit-learn y despliegue de API en Render.
 
 Link al repositorio de GitHub:
 
